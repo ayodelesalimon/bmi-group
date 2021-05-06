@@ -9,4 +9,6 @@ class AppColors {
   static Color bluegreyColor = Color(0xFF607D8B);
   static Color cardColor = Color(0xFF111328);
   static Color globalButtonColor = Color(0xffEB1555);
+  static Color counterButtonColor = Color(0xff1C1F32);
+  static Color counterTextColor = Color(0xff868892);
 }

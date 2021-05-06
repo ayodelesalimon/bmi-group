@@ -11,6 +11,8 @@ ThemeData myThemeData = ThemeData(
       headline2: _resultHeading2,
       headline3: _resultHeading3,
       headline4: _resultHeading4,
+      caption: _counterHeading,
+      bodyText1: _counterNumberHeading,
     ));
 
 TextStyle _resultHeading = TextStyle(
@@ -36,4 +38,17 @@ TextStyle _resultHeading4 = TextStyle(
   letterSpacing: Sizes.dimens_1_2,
   fontSize: Sizes.dimens_20,
   color: Colors.white,
+);
+
+TextStyle _counterHeading = TextStyle(
+  fontWeight: FontWeight.w500,
+  //letterSpacing: Sizes.dimens_1,
+  fontSize: Sizes.dimens_20,
+  color: AppColors.counterTextColor,
+);
+
+TextStyle _counterNumberHeading = TextStyle(
+  color: Colors.white,
+  fontWeight: FontWeight.bold,
+  fontSize: Sizes.dimens_50,
 );
