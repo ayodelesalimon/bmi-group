@@ -22,6 +22,19 @@ TextStyle _resultHeading = TextStyle(
   color: AppColors.whiteColor,
 );
 
+TextStyle _counterHeading = TextStyle(
+  fontWeight: FontWeight.w500,
+  //letterSpacing: Sizes.dimens_1,
+  fontSize: Sizes.dimens_16,
+  color: AppColors.counterTextColor,
+);
+
+TextStyle _counterNumberHeading = TextStyle(
+  color: AppColors.whiteColor,
+  fontWeight: FontWeight.w900,
+  fontSize: Sizes.dimens_50,
+);
+
 TextStyle _resultHeading2 = TextStyle(
   color: AppColors.whiteColor,
   fontSize: Sizes.dimens_18,
